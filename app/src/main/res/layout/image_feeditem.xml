@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="6dp"
+            android:layout_height="30dp"
+            android:id="@+id/profile"
+            android:src="@mipmap/ic_logo_round"/>
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:text=""
+            android:textIsSelectable="true"
+            android:clickable="true"
+            android:autoLink="web|email"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:focusable="true" />
+        <ImageView
+            android:src="@drawable/loadingholder"
+            android:fitsSystemWindows="true"
+            android:id="@+id/holder"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <ImageView
+            android:fitsSystemWindows="true"
+            android:id="@+id/image_view_upload"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/tim"
+    android:layout_marginTop="5dp"
+    android:textAllCaps="true"
+    android:layout_marginBottom="5dp"
+    android:textSize="13sp"
+    android:layout_marginStart="5dp"
+    android:textColor="#676464"
+    android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

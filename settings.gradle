@@ -1,0 +1,2 @@
+rootProject.name='VJIT ECE'
+include ':app'
